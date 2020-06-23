@@ -39,9 +39,17 @@ main{
 }
 .nav {
     font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin:20px;
+    background-color:white;
+   
+   
     
+}
+.nav-link{
+    color: darkblue;
+}
+.nav-item{
+    margin: 0 30px;
 }
 .profile-title{
     text-align: center;
@@ -98,4 +106,17 @@ h3{
 }
 .article p{
     text-align: center;
+}
+
+.git{
+    text-align: center;   
+}
+.github{
+    color: darkblue;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    margin-top: 0 !important;
+    width: 100%;
 }

@@ -39,7 +39,6 @@ main{
 }
 .nav {
     font-size: 20px;
-    margin:20px;
     background-color:white;
    
    
@@ -51,26 +50,36 @@ main{
 .nav-item{
     margin: 0 30px;
 }
+#profile{
+    border: double 5px darkblue;
+}
 .profile-title{
     text-align: center;
     margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .profile-contents{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    
 }
 .image-img{
     border-radius:50%;
     width: 50%;
     text-align: center;
+    margin-bottom: 10px;
     
     
 }
 .content{
     font-size: 22px;
     
+}
+#works{
+    border-bottom: double 5px darkblue;
+    border-left: double 5px darkblue;
+    border-right: double 5px darkblue;
 }
 .works-contents{
     width: 100%;
@@ -79,8 +88,8 @@ main{
 
 .works-title{
     text-align: center;
-    font-size: 3rem;
-    margin: 50px 0;
+    font-size: 4rem;
+    
 }
 .works-contents{
     display: flex;
@@ -90,9 +99,9 @@ main{
 .article{
     padding: 0.5em 1em;
     margin: 2em 0;
-    border: double 5px #4ec4d3;
+    border: double 5px darkblue;
     
-    width: 30%;
+    width: 40%;
     height: auto;
     
 }
@@ -117,6 +126,263 @@ h3{
 .fixed {
     position: fixed;
     top: 0;
-    margin-top: 0 !important;
     width: 100%;
+    background-color:darkblue;
+    
 }
+.fixed .nav-link{
+    color: white;
+}
+#contact{
+    border-bottom: double 5px darkblue;
+    border-right: double 5px darkblue;
+    border-left: double 5px darkblue;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+.contact-image{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.contact-img{
+    width: 10%;
+    border-radius: 50%;
+    
+}
+#twitter{
+    font-size: 50px;
+    padding-left: 0px !important;   
+    text-align: center;
+}
+.twitter-icon{
+    color: darkblue;
+}
+.footer-main p{
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    margin: 0 auto;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-size: 16px;
+}
+
+@media screen and (max-width:760px) {
+    header{
+        width: 100%;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .title p{
+        font-size: 15px;
+    }
+    .nav{
+        font-size: 15px;
+    }
+    .nav-item{
+        margin: 0 10px;
+    }
+    .profile-title{
+        font-size: 2rem;
+    }
+    .profile-contents{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .works-title{
+        font-size: 2rem;
+    }
+    
+    .works-contents{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 13px;
+    }
+    .article{
+        height: 300px;
+        width: 70%;
+    }
+    .article p{
+        font-size: 10px;
+
+    }
+    .contact-title{
+        font-size: 2rem;
+    }
+    .contact-contents{
+        display: flex;
+        justify-content: center;
+   
+    }
+    .contact-img{
+        display: none;
+    }
+    #twitter{
+        width: 30%;
+    }
+    .footer-main{
+        font-size: 12px;
+    }
+    span{
+        font-size: 8px;
+    }
+    
+        
+
+}
+@media screen and (max-width:1200px) {
+    header{
+        width: 100%;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .nav{
+        font-size: 20px;
+    }
+    .profile-title{
+        font-size: 3rem;
+    }
+    
+    .content{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .works-title{
+        font-size: 3rem;
+    }
+    
+    
+    h3{
+        font-size: 18px;
+    }
+    .article{
+        height:auto;
+        width: 70%;
+        margin: 5px 10px;
+    }
+    .article p{
+        font-size: 15px;
+
+    }
+    .contact-title{
+        font-size: 2rem;
+    }
+    .contact-contents{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-img{
+        display: none;
+    }
+    
+    #twitter{
+        width: 30%;
+    }
+    .footer-main{
+        font-size: 20px;
+    }
+    span{
+        font-size: 14px;
+    }
+    
+        
+
+}
+@media screen and (max-width:400px) {
+    header{
+        width: 100%;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .title p{
+        font-size: 15px;
+    }
+    .nav{
+        font-size: 12px;
+    }
+    .nav-item{
+        margin: 0 5px;
+    }
+    .profile-title{
+        font-size: 2rem;
+    }
+    .profile-contents{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .works-title{
+        font-size: 2rem;
+    }
+    
+    .works-contents{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 13px;
+    }
+    .article{
+        height: 280px;
+        width: 70%;
+    }
+    .article p{
+        font-size: 10px;
+
+    }
+    .contact-title{
+        font-size: 2rem;
+    }
+    .contact-contents{
+        display: flex;
+        justify-content: center;
+   
+    }
+    .contact-img{
+        display: none;
+    }
+    #twitter{
+        width: 30%;
+    }
+    .footer-main{
+        font-size: 8px;
+    }
+    span{
+        font-size: 6px;
+    }
+    
+        
+
+}
+
+

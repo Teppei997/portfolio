@@ -21,6 +21,7 @@ header{
      
 }
 
+
 .title h1{
     font-size: 50px;   
 }
@@ -74,8 +75,15 @@ main{
 }
 .content{
     font-size: 22px;
+    text-decoration: none;
     
 }
+.content a{
+    text-decoration: none;
+    cursor: default;
+    color: black;
+}
+
 #works{
     border-bottom: double 5px darkblue;
     border-left: double 5px darkblue;

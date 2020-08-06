@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    width: auto;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fade{
+    text-align: center;
+}
+h1{
+    font-size: 48pt;
+    animation-name: fadeUp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    color: #c8e0ee;
+    }
+    @keyframes fadeUp {
+    100% {
+        text-shadow: 10px 10px .25em rgba(0,0,0,0.8),
+                       -10px -10px .25em rgba(0,0,0,0.9);
+        color: blue;
+}
+}
+.btn{
+    width: 100px;
+}
+a{
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: yellow;
+    background-color: blue;
+    border-radius: 10px;
+    
+}

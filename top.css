@@ -38,5 +38,22 @@ a{
     text-decoration: yellow;
     background-color: blue;
     border-radius: 10px;
+    cursor: pointer;
     
+}
+
+@media screen and (max-width:1000px){
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:600px){
+    h1{
+        font-size: 30px;
+
+    }
+    a{
+        font-size: 20px;
+    }
 }
